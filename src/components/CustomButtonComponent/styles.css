@@ -8,11 +8,11 @@ button:focus {
 }
 
 button:hover {
-    cursor: 'pointer';
+    cursor: pointer;
     background-color: rgb(226, 226, 226);
 }
 
 button:active {
-    cursor: 'pointer';
+    cursor: pointer;
     background-color: rgb(214, 214, 214);
 }

@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
-import * as styles from './styles.css'
+import './styles.css'
 
 const ToolbarComponent = ({text}) => <button>{text}</button>
 

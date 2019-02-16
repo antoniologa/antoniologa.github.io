@@ -1,0 +1,18 @@
+button {
+    background-color: transparent;
+    width: 150px;
+    border: none;
+}
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    cursor: 'pointer';
+    background-color: rgb(226, 226, 226);
+}
+
+button:active {
+    cursor: 'pointer';
+    background-color: rgb(214, 214, 214);
+}

@@ -6,8 +6,9 @@ class ToolbarComponent extends Component {
   render() {
     return (
       <div className={styles.container}>
-        <div>
-          <h2>Antonio López Garnier</h2>
+        <div className={styles.title}>
+          <h2 className={styles.desktop}>Antonio López Garnier</h2>
+          <h2 className={styles.mobile}>Antonio LG</h2>
         </div>
         <div className={styles.containerButtons}>
           <CustomNavButtonComponent text="Home" to="/"></CustomNavButtonComponent>
